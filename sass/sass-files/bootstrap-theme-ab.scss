@@ -1,0 +1,85 @@
+/*!
+ * Bootstrap Theme AB Tasty - BackOffice TDB
+ */
+
+// Core variables and mixins
+@import "variables";
+@import "bootstrap/mixins";
+@import "custom"; // custom variable overrides
+
+// Plugins imported alphabatically and by order (remove if not needed)
+
+@import "bootstrap-theme-ab/plugin-bootstrap-markdown";
+@import "bootstrap-theme-ab/plugin-bootstrap-slider";
+@import "bootstrap-theme-ab/plugin-bootstrap-tagsinput";
+@import "bootstrap-theme-ab/plugin-bootstrap-timepicker";
+@import "bootstrap-theme-ab/plugin-clockpicker";
+@import "bootstrap-theme-ab/plugin-colorpicker";
+@import "bootstrap-theme-ab/plugin-dataTables.bootstrap";
+@import "bootstrap-theme-ab/plugin-dataTables.colReorder";
+@import "bootstrap-theme-ab/plugin-dataTables.colVis";
+@import "bootstrap-theme-ab/plugin-dataTables.tableTools";
+@import "bootstrap-theme-ab/plugin-dataTables.responsive";
+@import "bootstrap-theme-ab/plugin-dataTables-cust";
+@import "bootstrap-theme-ab/plugin-dropzone";
+@import "bootstrap-theme-ab/plugin-fd-slider";
+@import "bootstrap-theme-ab/plugin-fullcalendar";
+@import "bootstrap-theme-ab/plugin-ion";
+@import "bootstrap-theme-ab/plugin-jarviswidget";
+@import "bootstrap-theme-ab/plugin-jcrop";
+@import "bootstrap-theme-ab/plugin-jqgrid";
+@import "bootstrap-theme-ab/plugin-select2";
+@import "bootstrap-theme-ab/plugin-xeditable";
+@import "bootstrap-theme-ab/plugin-smart-notifications";
+@import "bootstrap-theme-ab/plugin-summernote";
+@import "bootstrap-theme-ab/plugin-superbox";
+@import "bootstrap-theme-ab/plugin-voicecommand";
+
+// Libraries (Remove if not needed)
+/*@import "library/animation/animation-engine";
+@import "library/jqueryui/jquery-ui-1.10.3.custom";
+@import "library/flags/flags";*/
+
+// Individual pages, sections, and components.  You can remove any of these sections you don't use
+
+// Components
+@import "bootstrap-theme-ab/component-fullscreen";
+@import "bootstrap-theme-ab/component-jqueryui"; // dependency: jquery-ui-1.10.3.custom
+@import "bootstrap-theme-ab/component-pricingtable";
+@import "bootstrap-theme-ab/component-pace";
+@import "bootstrap-theme-ab/component-smartchat";
+@import "bootstrap-theme-ab/component-smartforms";
+
+// Pages
+@import "bootstrap-theme-ab/page-error";
+@import "bootstrap-theme-ab/page-extr";
+
+// Sections
+@import "bootstrap-theme-ab/section-nestables";
+@import "bootstrap-theme-ab/section-calendar";
+@import "bootstrap-theme-ab/section-inbox";
+@import "bootstrap-theme-ab/section-profile";
+@import "bootstrap-theme-ab/section-search";
+@import "bootstrap-theme-ab/section-todo";
+@import "bootstrap-theme-ab/section-timeline";
+@import "bootstrap-theme-ab/section-forum";
+@import "bootstrap-theme-ab/section-ajax-msg";
+
+// Main THEME (Imports by order - do not change order)
+@import "bootstrap-theme-ab/main";
+@import "bootstrap-theme-ab/main-container-fix";
+@import "bootstrap-theme-ab/main-special-class";
+@import "bootstrap-theme-ab/main-form-radiocheck";
+@import "bootstrap-theme-ab/main-animated";
+@import "bootstrap-theme-ab/main-colorpallet";
+@import "bootstrap-theme-ab/main-page-footer";
+@import "bootstrap-theme-ab/main-responsive";
+
+// Patches
+@import "bootstrap-theme-ab/ie-fix";
+
+// UI (overrides and new)
+@import "bootstrap-theme-ab/top-menu";
+
+// Overrides
+@import "overrides";
