@@ -23,11 +23,11 @@ $gray-mid-light:         lighten($black, 75%);   // #ccc
 $gray-lighter:           lighten($black, 93.5%); // #eee
 $gray-lightest:          lighten($black, 95.5%); // #fafafa
 
-$brand-primary:         #3276b1;
-$brand-success:         #739e73;
-$brand-info:            #c79121;
-$brand-warning:         #a90329;
-$brand-danger:          #57889c;
+$brand-primary:         #276FC3; //
+$brand-success:         #B4E102; //
+$brand-info:            #529EF6; //#2870C4;
+$brand-warning:         #FC6C00; //#FC6900
+$brand-danger:          #F5504E; //
 
 
 //== Scaffolding
@@ -48,8 +48,9 @@ $link-hover-color:      darken($link-color, 15%);
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700);
 
-$font-family-sans-serif:  "Open Sans", Arial, Helvetica, sans-serif;
+$font-family-sans-serif:  "Raleway", Arial, Helvetica, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
@@ -101,6 +102,7 @@ $padding-xs-horizontal:     5px;
 $line-height-large:         1.33;
 $line-height-small:         1.5;
 
+$border-radius-none:        0px;
 $border-radius-base:        4px;
 $border-radius-large:       6px;
 $border-radius-small:       3px;
@@ -135,6 +137,7 @@ $table-border-color:            #ddd;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
+
 $btn-font-weight:                normal;
 
 $btn-default-color:              #333;
@@ -143,23 +146,23 @@ $btn-default-border:             #ccc;
 
 $btn-primary-color:              #fff;
 $btn-primary-bg:                 $brand-primary;
-$btn-primary-border:             darken($btn-primary-bg, 5%);
+$btn-primary-border:             $btn-primary-bg;
 
 $btn-success-color:              #fff;
 $btn-success-bg:                 $brand-success;
-$btn-success-border:             darken($btn-success-bg, 5%);
+$btn-success-border:             $btn-success-bg;
 
 $btn-info-color:                 #fff;
 $btn-info-bg:                    $brand-info;
-$btn-info-border:                darken($btn-info-bg, 5%);
+$btn-info-border:                $btn-info-bg;
 
 $btn-warning-color:              #fff;
 $btn-warning-bg:                 $brand-warning;
-$btn-warning-border:             darken($btn-warning-bg, 5%);
+$btn-warning-border:             $btn-warning-bg;
 
 $btn-danger-color:               #fff;
 $btn-danger-bg:                  $brand-danger;
-$btn-danger-border:              darken($btn-danger-bg, 5%);
+$btn-danger-border:              $btn-danger-bg;
 
 $btn-link-disabled-color:        $gray-light;
 
@@ -750,35 +753,35 @@ $component-offset-horizontal: 180px;
 //
 //##
 $blueStandard:			#3276b1;
-$blueSky:						#0091d9;
-$blue: 							#57889c;
-$blueLight: 				#92a2a8;
-$blueDark: 					#4c4f53;
-$green: 						#356e35;
-$greenLight: 				#71843f;
-$greenDark: 				#496949;
-$greenBright:				#40ac2b;
-$red: 							#a90329;
-$yellow: 						#b09b5b;
-$orange: 						#c79121;
-$orangeDark: 				#a57225;
-$pink: 							#ac5287; 
-$pinkDark: 					#a8829f;
-$purple: 						#6e587a;
-$darken: 						#404040;
-$lighten: 					#d5e7ec;
-$white: 						#ffffff;
-$greyDark: 					#525252;
-$magenta: 					#6e3671; 
-$teal: 							#568a89;
-$redLight: 					#a65858;
-$redBright:					#ed1c24;
-$tealLight:					#0aa66e;
+$blueSky:				#0091d9;
+$blue: 					#57889c;
+$blueLight: 			#92a2a8;
+$blueDark: 				#4c4f53;
+$green: 				#356e35;
+$greenLight: 			#71843f;
+$greenDark: 			#496949;
+$greenBright:			#40ac2b;
+$red: 					#a90329;
+$yellow: 				#b09b5b;
+$orange: 				#c79121;
+$orangeDark: 			#a57225;
+$pink: 					#ac5287; 
+$pinkDark: 				#a8829f;
+$purple: 				#6e587a;
+$darken: 				#404040;
+$lighten: 				#d5e7ec;
+$white: 				#ffffff;
+$greyDark: 				#525252;
+$magenta: 				#6e3671; 
+$teal: 					#568a89;
+$redLight: 				#a65858;
+$redBright:				#ed1c24;
+$tealLight:				#0aa66e;
 
 //== DROPDOWN ANIMATIONS (GLOBAL)
 // for full animation list go to: http://daneden.github.io/animate.css/
 //##
-$animation-type:				  "flipInX";
+$animation-type:			"flipInX";
 $animation-ajax-dropdown:	"flipInY";
 
 //== IMAGE PATH & BACKGROUNDS
@@ -797,9 +800,9 @@ $body-background-color:			$white;
 //== HEADER
 //
 //##
-$smart-navbar-height:			  49px; 
-$smart-navbar-color-start:	#f3f3f3;
-$smart-navbar-color-end:		#e2e2e2;
+$smart-navbar-height:			57px; 
+$smart-navbar-color-start:		#f3f3f3;
+$smart-navbar-color-end:		#fff;
 
 //== ASIDE WIDTH (NAVIGATION WIDTH & COLOR)
 //
@@ -808,8 +811,8 @@ $smart-navbar-color-end:		#e2e2e2;
 // careful when you are resizing this as it may affect lower resoltions
 $asideWidth:					      220px;
 $asideDataURL:					    "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI5NyUiIHN0b3AtY29sb3I9IiMzYTM2MzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmEyNzI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==";
-$asideColor-start:				  #2a2725; /* left side */
-$asideColor-end:				    #3a3633; /* right side */
+$asideColor-start:				  #070C12; /* left side */
+$asideColor-end:				    #152235; /* right side */
 
 $asideLinkColor:				    #a8a8a8;
 $asideLinkColorHover:			  $white;
@@ -830,13 +833,13 @@ $asideExpanIconMT:				  2px;  /* margin top */
 //##
 $smart-footer-height:       52px;
 $smart-footer-padding:      15px ($grid-gutter-width/2) 0;
-$smart-footer-background:   $asideColor-start;
+$smart-footer-background:   $brand-primary;
 
 //== RIBBON
 //
 //##
 $ribbon-height:					40px;
-$ribbonBGColor:					#474544;
+$ribbonBGColor:					$brand-primary;
 
 //== AJAX DROPDOWN
 //
@@ -921,3 +924,8 @@ $progressbar-lg:				  30px;
 $table-header-color-start:	#f2f2f2;
 $table-header-color-end:		#fafafa;
 
+ //** Disabled cursor for form controls and buttons.
+  $cursor-disabled:                not-allowed !default;
+
+ //Link hover decoration
+ $link-hover-decoration: none;

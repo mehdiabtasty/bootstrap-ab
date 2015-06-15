@@ -37,13 +37,14 @@
 
 // Libraries (Remove if not needed)
 /*@import "library/animation/animation-engine";
-@import "library/jqueryui/jquery-ui-1.10.3.custom";
-@import "library/flags/flags";*/
+@import "library/jqueryui/jquery-ui-1.10.3.custom";*/
+@import "library/flags/flags";
 
 // Individual pages, sections, and components.  You can remove any of these sections you don't use
 
 // Components
 @import "bootstrap-theme-ab/component-fullscreen";
+@import "bootstrap-theme-ab/component-buttons";
 @import "bootstrap-theme-ab/component-jqueryui"; // dependency: jquery-ui-1.10.3.custom
 @import "bootstrap-theme-ab/component-pricingtable";
 @import "bootstrap-theme-ab/component-pace";
