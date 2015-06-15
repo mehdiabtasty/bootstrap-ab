@@ -15725,7 +15725,7 @@ input[type="text"]:focus + .input-group-addon {
 
 /* line 1325, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-warning input[type="text"] + .input-group-addon {
-  background-color: #faf2cc;
+  background-color: #ff9749;
   color: #c09853;
 }
 
@@ -15736,14 +15736,14 @@ input[type="text"]:focus + .input-group-addon {
 
 /* line 1331, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-warning input[type="text"]:focus + .input-group-addon {
-  background-color: #e1c118;
+  background-color: #7c3500;
   color: #ffffff;
 }
 
 /* line 1336, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-error .input-group-addon {
   border-color: #b94a48;
-  background: #f2dede;
+  background: #faafaf;
   color: #b94a48;
 }
 
@@ -15754,18 +15754,18 @@ input[type="text"]:focus + .input-group-addon {
 
 /* line 1343, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-error input[type="text"] + .input-group-addon {
-  background-color: #f2dede;
+  background-color: #faafaf;
   color: #b94a48;
 }
 
 /* line 1347, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-error input[type="text"]:focus, .has-error input[type="text"]:focus + .input-group-addon {
-  border-color: #c05e5e;
+  border-color: #e9100d;
 }
 
 /* line 1349, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-error input[type="text"]:focus + .input-group-addon {
-  background-color: #c05e5e;
+  background-color: #e9100d;
   color: #ffffff;
 }
 
@@ -15930,7 +15930,7 @@ input[type="color"].ui-autocomplete-loading {
 .alert-danger {
   border-color: #953b39;
   color: #ffffff;
-  background: #c26565;
+  background: #f1120f;
   text-shadow: none;
 }
 
@@ -15950,9 +15950,9 @@ input[type="color"].ui-autocomplete-loading {
 
 /* line 1512, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .alert-info {
-  border-color: #9cb4c5;
+  border-color: #5cbdf7;
   color: #305d8c;
-  background: #d6dde7;
+  background: #b3d4fb;
 }
 
 /*
