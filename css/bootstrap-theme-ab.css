@@ -10266,6 +10266,89 @@ input[type="button"].btn-block {
 }
 
 /*
+ * DROPDOWN MENU
+ */
+/* line 4, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-menu-xs {
+  min-width: 37px;
+}
+
+/* line 8, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-menu-xs > li > a {
+  padding: 3px 10px;
+}
+
+/* line 10, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-menu-xs > li > a:hover i {
+  color: #fff !important;
+}
+
+/* Dropdown menu extended */
+/* line 15, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* line 19, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+}
+
+/* line 26, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* line 30, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #bfbfbf;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+/* line 44, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu:hover > a:after {
+  border-left-color: #ffffff;
+}
+
+/* line 48, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+/* line 52, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+}
+
+/* line 58, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #333333;
+  background-color: #f5f5f5;
+}
+
+/* line 68, ../sass/sass-files/bootstrap-theme-ab/_component-dropdown.scss */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #276FC3;
+}
+
+/*
  * JQUI STUFF
  */
 /*	Overlay	 */
@@ -16605,82 +16688,14 @@ a:link, .btn, button {
 }
 
 /*
- * DROPDOWN MENU
- */
-/* line 2078, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-menu-xs {
-  min-width: 37px;
-}
-
-/* line 2082, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-menu-xs > li > a {
-  padding: 3px 10px;
-}
-
-/* line 2084, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-menu-xs > li > a:hover i {
-  color: #fff !important;
-}
-
-/* Dropdown menu extended */
-/* line 2089, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu {
-  position: relative;
-}
-
-/* line 2093, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu > .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-}
-
-/* line 2100, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu:hover > .dropdown-menu {
-  display: block;
-}
-
-/* line 2104, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu > a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #bfbfbf;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-
-/* line 2118, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu:hover > a:after {
-  border-left-color: #ffffff;
-}
-
-/* line 2122, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu.pull-left {
-  float: none;
-}
-
-/* line 2126, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.dropdown-submenu.pull-left > .dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-}
-
-/*
  * Table
  */
-/* line 2135, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2079, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .table.has-tickbox thead tr th:first-child {
   width: 18px;
 }
 
-/* line 2139, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2083, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .table.has-tickbox.smart-form thead tr th:first-child .radio,
 .table.has-tickbox.smart-form thead tr th:first-child .checkbox,
 .table.has-tickbox.smart-form tbody tr td:first-child .radio,
@@ -16688,7 +16703,7 @@ a:link, .btn, button {
   padding: 0px !important;
 }
 
-/* line 2146, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2090, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .table thead tr,
 .fc-border-separate thead tr {
   background-color: #eeeeee;
@@ -16701,24 +16716,24 @@ a:link, .btn, button {
   font-size: 12px;
 }
 
-/* line 2157, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2101, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fc-border-separate thead tr th {
   padding: 4px;
   line-height: 1.428571429;
 }
 
-/* line 2162, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2106, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
   border-width: 1px;
 }
 
-/* line 2166, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2110, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding > .table-bordered,
 .no-padding > .table-responsive > .table-bordered {
   border: none !important;
 }
 
-/* line 2171, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2115, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding > .table-bordered thead tr th:first-child,
 .no-padding > .table-bordered thead tr td:first-child,
 .no-padding > .table-bordered tbody tr td:first-child,
@@ -16728,7 +16743,7 @@ a:link, .btn, button {
   border-left-width: 0px !important;
 }
 
-/* line 2179, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2123, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding > .table-bordered thead tr th:last-child,
 .no-padding > .table-bordered tbody tr td:last-child,
 .no-padding > .table-responsive > .table-bordered thead tr th:last-child,
@@ -16736,23 +16751,23 @@ a:link, .btn, button {
   border-right-width: 0px !important;
 }
 
-/* line 2186, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2130, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding > .table-bordered tbody tr:last-child td,
 .no-padding > .table-responsive > .table-bordered tbody tr:last-child td {
   border-bottom-width: 0px !important;
 }
 
-/* line 2191, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2135, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding .table-responsive .table {
   margin-bottom: 0;
 }
 
-/* line 2195, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2139, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .no-padding .note-editable .table-bordered {
   border: 1px solid #dddddd !important;
 }
 
-/* line 2199, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2143, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smart-form.table td .radio i,
 .smart-form.table td .checkbox i,
 .smart-form.table th .radio i,
@@ -16761,7 +16776,7 @@ a:link, .btn, button {
 }
 
 /* condenced table */
-/* line 2208, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2152, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .table-condensed.table > tbody > tr > td,
 .table-condensed.table > tbody > tr > th,
 .table-condensed.table > tfoot > tr > td,
@@ -16774,7 +16789,7 @@ a:link, .btn, button {
 /*
  * small stats
  */
-/* line 2222, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2166, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stats .progress {
   height: 7px;
   border-radius: 0;
@@ -16782,34 +16797,34 @@ a:link, .btn, button {
   margin-bottom: 15px;
 }
 
-/* line 2229, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2173, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stats {
   padding-top: 6px !important;
 }
 
-/* line 2233, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2177, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-buttons {
   float: left;
   width: 100%;
 }
 
-/* line 2238, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2182, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stats .show-stat-buttons > :first-child {
   padding-right: 5px;
 }
 
-/* line 2241, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2185, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stats .show-stat-buttons > :last-child {
   padding-left: 5px;
 }
 
-/* line 2245, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2189, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-microcharts {
   margin-left: -10px;
   margin-right: -10px;
 }
 
-/* line 2250, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2194, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-microcharts > div {
   border-right: 1px solid #DADADA !important;
   border-top: 1px solid #DADADA !important;
@@ -16819,42 +16834,42 @@ a:link, .btn, button {
   padding: 7px 9px;
 }
 
-/* line 2259, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2203, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-microcharts > :last-child {
   border-right: none !important;
 }
 
-/* line 2263, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2207, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-microcharts .sparkline {
   margin-top: 10px;
   margin-right: 8px;
   opacity: .7;
 }
 
-/* line 2267, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2211, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .show-stat-microcharts .sparkline:hover {
   opacity: 1;
 }
 
-/* line 2271, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2215, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smaller-stat {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 2277, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2221, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smaller-stat li {
   margin-top: 3px;
   margin-right: 0px;
 }
 
-/* line 2280, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2224, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smaller-stat li:first-child {
   margin-top: 8px;
 }
 
-/* line 2284, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2228, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smaller-stat span.label {
   width: 40px;
   display: block;
@@ -16863,7 +16878,7 @@ a:link, .btn, button {
   cursor: default;
 }
 
-/* line 2290, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2234, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .smaller-stat span.label:hover {
   opacity: 1;
 }
@@ -16871,7 +16886,7 @@ a:link, .btn, button {
 /*
  * Login info
  */
-/* line 2298, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2242, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info {
   border-bottom: 1px solid #D8D4D4;
   display: block;
@@ -16886,7 +16901,7 @@ a:link, .btn, button {
   border-bottom: 1px solid #525151;
 }
 
-/* line 2312, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2256, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info a {
   text-decoration: none !important;
   color: #a8a8a8;
@@ -16894,7 +16909,7 @@ a:link, .btn, button {
   margin-top: 6px;
 }
 
-/* line 2319, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2263, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info a span {
   text-transform: capitalize;
   font-size: 14px;
@@ -16908,17 +16923,17 @@ a:link, .btn, button {
   vertical-align: middle;
 }
 
-/* line 2330, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2274, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info a span + i {
   vertical-align: middle;
 }
 
-/* line 2334, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2278, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info a:hover {
   color: #ffffff;
 }
 
-/* line 2338, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2282, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info > span {
   height: 38px;
   display: block;
@@ -16926,7 +16941,7 @@ a:link, .btn, button {
   border-bottom: 1px solid #1A1817;
 }
 
-/* line 2345, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2289, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .login-info img {
   width: 25px;
   height: auto;
@@ -16938,27 +16953,27 @@ a:link, .btn, button {
   border-left: 3px solid #ffffff;
 }
 
-/* line 2356, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2300, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 img.online, img.busy, img.offline, img.away {
   border-left: 3px solid #fff;
 }
 
-/* line 2360, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2304, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 img.online {
   border-left-color: #40ac2b !important;
 }
 
-/* line 2363, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2307, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 img.busy {
   border-left-color: #ed1c24 !important;
 }
 
-/* line 2366, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2310, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 img.offline {
   border-left-color: #dddddd !important;
 }
 
-/* line 2369, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2313, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 img.away {
   border-left-color: #ffc40d !important;
 }
@@ -16966,7 +16981,7 @@ img.away {
 /*
  * Client page forms
  */
-/* line 2376, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2320, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .client-form header {
   padding: 15px 13px;
   margin: 0;
@@ -16978,7 +16993,7 @@ img.away {
 /*
  * MINIFIED MENU
  */
-/* line 2389, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2333, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .inbox-badge {
   border-radius: 50%;
   font-size: 9px;
@@ -16990,7 +17005,7 @@ img.away {
   min-width: 13px;
 }
 
-/* line 2400, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2344, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minifyme {
   border-bottom: 1px solid #302F2F;
   background: #454545;
@@ -17009,14 +17024,14 @@ img.away {
   transition: all 0.1s linear 0s;
 }
 
-/* line 2417, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2361, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minifyme:hover {
   background: #646464;
   color: #E4E4E4;
   right: 0px;
 }
 
-/* line 2423, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2367, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .minifyme {
   right: 0px;
   color: #A8A8A8;
@@ -17028,40 +17043,40 @@ img.away {
   font-size: 23px;
 }
 
-/* line 2434, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2378, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .minifyme .fa:before {
   content: "\f0a9";
 }
 
-/* line 2438, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2382, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .login-info a span, .minified .login-info a i {
   display: none;
 }
 
-/* line 2442, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2386, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .login-info span {
   padding: 0px 5px;
   text-align: center;
 }
 
-/* line 2446, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2390, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .login-info img {
   margin: -2px 0 0;
   width: 30px;
 }
 
-/* line 2451, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2395, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .login-info {
   height: 38px;
   border-bottom: 1px solid #181818;
 }
 
-/* line 2456, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2400, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified #left-panel {
   width: 45px;
 }
 
-/* line 2460, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2404, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified #main {
   margin-left: 45px;
 }
@@ -17069,12 +17084,12 @@ img.away {
 /*
  * Minified NAV
  */
-/* line 2468, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2412, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified #left-panel, .minified nav > ul > li {
   overflow: visible;
 }
 
-/* line 2472, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2416, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > ul {
   min-height: 100px !important;
   max-height: 180px !important;
@@ -17083,18 +17098,18 @@ img.away {
   background: #ed1c24 !important;
 }
 
-/* line 2480, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2424, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li, .minified nav > ul > li a {
   position: relative;
 }
 
-/* line 2484, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2428, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul > li > a {
   padding: 10px 11px;
   display: block;
 }
 
-/* line 2489, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2433, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > a .fa.fa-fw {
   display: block;
   width: auto;
@@ -17102,44 +17117,44 @@ img.away {
   padding: 0;
 }
 
-/* line 2496, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2440, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > a > i {
   text-align: center;
   margin: 0;
   display: block;
 }
 
-/* line 2502, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2446, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li.active > a::before {
   content: "\f0d9";
 }
 
-/* line 2506, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2450, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul ul li a {
   padding-left: 14px;
 }
 
-/* line 2509, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2453, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul ul li li a {
   padding-left: 25px;
 }
 
-/* line 2513, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2457, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul ul li::before {
   left: 12px;
 }
 
-/* line 2516, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2460, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul::before {
   left: 12px;
 }
 
-/* line 2520, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2464, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > a .menu-item-parent, .minified nav > ul > li > a > b {
   display: none;
 }
 
-/* line 2524, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2468, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > a > .menu-item-parent {
   display: none;
   position: absolute;
@@ -17160,7 +17175,7 @@ img.away {
   padding-left: 12px;
 }
 
-/* line 2544, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2488, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul {
   display: none !important;
   position: absolute;
@@ -17176,7 +17191,7 @@ img.away {
   margin-top: -3px;
 }
 
-/* line 2560, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2504, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul > li > ul > li > ul {
   position: relative;
   left: 13px;
@@ -17186,84 +17201,84 @@ img.away {
   width: 197px;
 }
 
-/* line 2569, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2513, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li:hover > a > .menu-item-parent, .minified nav > ul > li:hover > ul {
   display: block !important;
 }
 
-/* line 2573, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2517, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul > li {
   background-color: rgba(69, 69, 69, 0.9);
 }
 
-/* line 2576, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2520, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul > li > ul > li {
   background-color: #484B50;
 }
 
-/* line 2580, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2524, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li {
   border-bottom: 1px solid #1A1817;
   border-top: 1px solid #525151;
 }
 
-/* line 2585, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2529, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul::before {
   border-left: none;
 }
 
-/* line 2589, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2533, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul ul li::before {
   border: none;
 }
 
-/* line 2593, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2537, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .slimScrollDiv, .slimScrollDiv > :first-child {
   overflow: hidden;
 }
 
-/* line 2597, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2541, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .slimScrollDiv, .minified .slimScrollDiv > :first-child {
   overflow: visible !important;
 }
 
-/* line 2601, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2545, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified .slimScrollBar, .minified .slimScrollRail {
   display: none;
 }
 
-/* line 2605, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2549, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul > li > a {
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-/* line 2610, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2554, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul > li > ul > li > a {
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-/* line 2615, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2559, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav > ul > li > ul > li > ul > li a {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
 /* Fourth Level: A */
-/* line 2621, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2565, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul ul ul ul li a {
   padding-left: 45px;
 }
 
 /* Fifth Level: A */
-/* line 2626, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2570, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul ul ul ul ul li a {
   padding-left: 62px;
 }
 
 /* Sixth Level: A */
-/* line 2631, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2575, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified nav ul ul ul ul ul ul li a {
   padding-left: 82px;
 }
@@ -17271,7 +17286,7 @@ img.away {
 /*
  * ALTERNATIVE PAGING
  */
-/* line 2640, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2584, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .pagination.pagination-alt > li > a {
   box-shadow: none;
   -moz-box-shadow: none;
@@ -17280,7 +17295,7 @@ img.away {
   margin-left: -1px;
 }
 
-/* line 2647, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2591, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .pagination.pagination-alt > li:first-child > a {
   padding-left: 0px;
 }
@@ -17288,24 +17303,24 @@ img.away {
 /*
  * CUSTOM BUTTON
  */
-/* line 2655, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2599, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .pagination > li > a, .pagination > li > span {
   box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.05);
 }
 
-/* line 2661, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2605, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .disabled {
   color: #ffffff;
 }
 
-/* line 2664, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2608, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-default.disabled {
   color: #999999;
 }
 
-/* line 2668, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2612, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn.btn-ribbon {
   background-color: #707070;
   background-image: -moz-linear-gradient(top, #777, #666);
@@ -17327,18 +17342,18 @@ img.away {
   cursor: pointer;
 }
 
-/* line 2689, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2633, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn.btn-ribbon > i {
   font-size: 111%;
 }
 
-/* line 2693, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2637, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ribbon-button-alignment {
   padding-top: 10px;
   display: inline-block;
 }
 
-/* line 2698, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2642, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ribbon-button-alignment.pull-right > .btn.btn-ribbon {
   margin: 0 0 0 8px;
 }
@@ -17346,172 +17361,172 @@ img.away {
 /*
  * Panels
  */
-/* line 2706, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2650, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-purple {
   border-color: #6e587a;
 }
-/* line 2708, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2652, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-purple > .panel-heading {
   color: #ffffff;
   background-color: #6e587a;
   border-color: #6e587a;
 }
 
-/* line 2714, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2658, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-greenLight {
   border-color: #71843f;
 }
-/* line 2716, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2660, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-greenLight > .panel-heading {
   color: #ffffff;
   background-color: #71843f;
   border-color: #71843f;
 }
 
-/* line 2722, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2666, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-greenDark {
   border-color: #496949;
 }
-/* line 2724, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2668, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-greenDark > .panel-heading {
   color: #ffffff;
   background-color: #496949;
   border-color: #496949;
 }
 
-/* line 2730, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2674, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-darken {
   border-color: #333333;
 }
-/* line 2732, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2676, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-darken > .panel-heading {
   color: #ffffff;
   background-color: #404040;
   border-color: #404040;
 }
 
-/* line 2738, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2682, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-pink {
   border-color: #ac5287;
 }
-/* line 2740, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2684, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-pink > .panel-heading {
   color: #ffffff;
   background-color: #ac5287;
   border-color: #ac5287;
 }
 
-/* line 2746, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2690, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-green {
   border-color: #356e35;
 }
-/* line 2748, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2692, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-green > .panel-heading {
   color: #ffffff;
   background-color: #356e35;
   border-color: #356e35;
 }
 
-/* line 2754, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2698, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blueLight {
   border-color: #92a2a8;
 }
-/* line 2756, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2700, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blueLight > .panel-heading {
   color: #ffffff;
   background-color: #92a2a8;
   border-color: #92a2a8;
 }
 
-/* line 2762, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2706, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-pinkDark {
   border-color: #a8829f;
 }
-/* line 2764, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2708, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-pinkDark > .panel-heading {
   color: #ffffff;
   background-color: #a8829f;
   border-color: #a8829f;
 }
 
-/* line 2770, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2714, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-redLight {
   border-color: #a65858;
 }
-/* line 2772, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2716, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-redLight > .panel-heading {
   color: #ffffff;
   background-color: #a65858;
   border-color: #a65858;
 }
 
-/* line 2778, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2722, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-red {
   border-color: #a90329;
 }
-/* line 2780, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2724, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-red > .panel-heading {
   color: #ffffff;
   background-color: #a90329;
   border-color: #a90329;
 }
 
-/* line 2786, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2730, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-teal {
   border-color: #568a89;
 }
-/* line 2788, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2732, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-teal > .panel-heading {
   color: #ffffff;
   background-color: #568a89;
   border-color: #568a89;
 }
 
-/* line 2794, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2738, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-orange {
   border-color: #c79121;
 }
-/* line 2796, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2740, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-orange > .panel-heading {
   color: #ffffff;
   background-color: #c79121;
   border-color: #c79121;
 }
 
-/* line 2802, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2746, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blueDark {
   border-color: #4c4f53;
 }
-/* line 2804, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2748, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blueDark > .panel-heading {
   color: #ffffff;
   background-color: #4c4f53;
   border-color: #4c4f53;
 }
 
-/* line 2810, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2754, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-magenta {
   border-color: #6e3671;
 }
-/* line 2812, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2756, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-magenta > .panel-heading {
   color: #ffffff;
   background-color: #6e3671;
   border-color: #6e3671;
 }
 
-/* line 2818, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2762, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blue {
   border-color: #57889c;
 }
-/* line 2820, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2764, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-blue > .panel-heading {
   color: #ffffff;
   background-color: #57889c;
   border-color: #57889c;
 }
 
-/* line 2828, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2772, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .panel-footer > .btn-block {
   border-radius: 0px;
   -moz-border-radius: 0px;
@@ -17524,7 +17539,7 @@ img.away {
 /*
  * Circle Buttons
  */
-/* line 2841, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2785, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-circle {
   width: 30px;
   height: 30px;
@@ -17537,7 +17552,7 @@ img.away {
   -webkit-border-radius: 50%;
 }
 
-/* line 2852, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2796, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-circle.btn-lg {
   width: 50px;
   height: 50px;
@@ -17549,7 +17564,7 @@ img.away {
   -webkit-border-radius: 50%;
 }
 
-/* line 2862, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2806, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-circle.btn-xl {
   width: 70px;
   height: 70px;
@@ -17564,14 +17579,14 @@ img.away {
 /*
  * Big Metro Buttons
  */
-/* line 2878, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2822, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-metro {
   margin: 0 0 20px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* line 2884, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2828, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-metro > span {
   display: block;
   vertical-align: bottom;
@@ -17579,7 +17594,7 @@ img.away {
   text-transform: uppercase;
 }
 
-/* line 2891, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2835, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-metro > span.label {
   position: absolute;
   top: 0px;
@@ -17589,7 +17604,7 @@ img.away {
 /*
  * buttons with labels
  */
-/* line 2901, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2845, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-label {
   position: relative;
   left: -12px;
@@ -17599,13 +17614,13 @@ img.away {
   border-radius: 3px 0 0 3px;
 }
 
-/* line 2902, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2846, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-labeled {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 2904, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2848, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-link {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -17615,14 +17630,14 @@ img.away {
 /*
  * ANIMATION
  */
-/* line 2914, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2858, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #left-panel {
   -webkit-transition: 250ms cubic-bezier(0.1, 0.57, 0.1, 1);
   transition: 250ms cubic-bezier(0.1, 0.57, 0.1, 1);
   -webkit-transform: translate(0px, 0px) translateZ(0px);
 }
 
-/* line 2920, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2864, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #main {
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
@@ -17631,24 +17646,24 @@ img.away {
 /*
  * CHARTS
  */
-/* line 2929, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2873, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .chart-small, .chart-large, .chart-xl {
   overflow: hidden;
 }
 
-/* line 2933, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2877, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .chart-small {
   height: 100px;
   width: 100%;
 }
 
-/* line 2938, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2882, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .chart-large {
   height: 235px;
   width: 100%;
 }
 
-/* line 2943, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2887, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .chart-xl {
   height: 297px;
   width: 100%;
@@ -17657,7 +17672,7 @@ img.away {
 /*
  * Flot Tool tips 
  */
-/* line 2952, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2896, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #flotTip {
   padding: 3px 5px;
   background-color: #ffffff;
@@ -17674,26 +17689,26 @@ img.away {
   border-radius: 4px;
 }
 
-/* line 2970, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2914, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #flotTip span {
   color: #38812D;
   font-weight: bold;
 }
 
-/* line 2976, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2920, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .legendLabel span {
   display: block;
   margin: 0 5px;
 }
 
-/* line 2980, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2924, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .legendColorBox {
   padding-left: 10px;
   vertical-align: top;
   padding-top: 5px;
 }
 
-/* line 2985, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2929, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .legendColorBox div > div {
   width: 4px;
   height: 4px;
@@ -17708,7 +17723,7 @@ img.away {
 /*
  * Morris Charts 
  */
-/* line 3001, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2945, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .morris-hover.morris-default-style {
   border-radius: 10px;
   padding: 6px;
@@ -17719,24 +17734,24 @@ img.away {
   font-size: 12px;
   text-align: center;
 }
-/* line 3010, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2954, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .morris-hover.morris-default-style .morris-hover-row-label {
   font-weight: bold;
   margin: 0.25em 0;
 }
-/* line 3014, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2958, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .morris-hover.morris-default-style .morris-hover-point {
   white-space: nowrap;
   margin: 0.1em 0;
 }
 
-/* line 3019, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2963, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .morris-hover {
   position: absolute;
   z-index: 903;
 }
 
-/* line 3023, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2967, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fixed-page-footer .morris-hover {
   z-index: 900;
 }
@@ -17744,7 +17759,7 @@ img.away {
 /*
  * Flot Chart 
  */
-/* line 3031, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2975, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .chart {
   overflow: hidden;
   /*- disabled for widget chrome bug */
@@ -17752,12 +17767,12 @@ img.away {
   margin: 20px 5px 10px 10px;
 }
 
-/* line 3037, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2981, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-legend {
   margin-top: 30px !important;
 }
 
-/* line 3041, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2985, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .has-legend-unique {
   margin-top: 19px !important;
 }
@@ -17765,30 +17780,30 @@ img.away {
 /*
  * EASY PIE CHART
  */
-/* line 3048, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2992, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easyPieChart {
   position: relative;
   text-align: center;
 }
-/* line 3051, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 2995, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easyPieChart canvas {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 3058, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3002, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easy-pie-chart {
   display: inline-block;
 }
-/* line 3060, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3004, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easy-pie-chart .percent {
   color: #444;
   font-size: 12px;
   font-weight: bold;
 }
 
-/* line 3067, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3011, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easy-pie-title {
   display: inline-block;
   margin: 10px 6px 0;
@@ -17805,7 +17820,7 @@ img.away {
   overflow: hidden;
 }
 
-/* line 3083, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3027, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .easy-pie-title .icon-color-good,
 .easy-pie-title .icon-color-bad {
   font-size: 18px;
@@ -17814,12 +17829,12 @@ img.away {
 /*
  * Carren colors
  */
-/* line 3093, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3037, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-color-good {
   color: #40ac2b;
 }
 
-/* line 3097, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3041, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-color-bad {
   color: #ed1c24;
 }
@@ -17827,13 +17842,13 @@ img.away {
 /*
  * SIGNS
  */
-/* line 3104, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3048, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .percent-sign:after, .degree-sign:after {
   content: " %";
   line-height: normal;
 }
 
-/* line 3109, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3053, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .degree-sign:after {
   content: " ┬░F";
 }
@@ -17841,38 +17856,38 @@ img.away {
 /*
  * HIDDEN MENU
  */
-/* line 3116, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3060, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu #left-panel {
   left: -210px;
   z-index: 903;
 }
 
-/* line 3120, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3064, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu #main {
   margin-left: 10px;
 }
 
-/* line 3124, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3068, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu #left-panel:hover {
   left: 0px;
 }
 
-/* line 3128, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3072, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu .minifyme {
   display: none;
 }
 
-/* line 3132, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3076, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .minified #hide-menu {
   display: none;
 }
 
-/* line 3136, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3080, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-header.pull-right {
   margin-left: 6px;
 }
 
-/* line 3140, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3084, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-header a > span {
   font-size: 13px;
   font-weight: normal;
@@ -17881,7 +17896,7 @@ img.away {
   display: inline-block;
 }
 
-/* line 3148, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3092, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-header > :first-child > a {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -17909,7 +17924,7 @@ img.away {
   margin: 10px 0 0 0;
 }
 
-/* line 3175, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3119, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-header > :first-child > a:hover {
   border: 1px solid #bfbfbf;
   color: #222;
@@ -17919,7 +17934,7 @@ img.away {
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
 }
 
-/* line 3184, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3128, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-header > :first-child > a:active {
   background-color: #e8e8e8;
   background-image: -moz-linear-gradient(top, #e8e8e8 0%, #ededed 100%);
@@ -17933,7 +17948,7 @@ img.away {
   box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
-/* line 3197, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3141, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu #hide-menu > :first-child > a {
   background-color: #e8e8e8;
   background-image: -moz-linear-gradient(top, #5A5A5A 0%, #686868 100%);
@@ -17949,7 +17964,7 @@ img.away {
   border-color: #494949;
 }
 
-/* line 3212, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3156, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .hidden-menu #hide-menu > :first-child > a:active, .full-screen #fullscreen > :first-child > a:active {
   -webkit-box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
@@ -17958,13 +17973,13 @@ img.away {
 /*
  * AJAX DROPDOWN
  */
-/* line 3221, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3165, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown > :first-child {
   margin: 0 0 3px 0;
   padding: 0 0 9px 0;
 }
 
-/* line 3226, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3170, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown {
   position: absolute;
   display: none;
@@ -17985,7 +18000,7 @@ img.away {
   border: 1px solid #b3b3b3;
 }
 
-/* line 3246, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3190, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown:after, .ajax-dropdown:before {
   bottom: 100%;
   border: solid transparent;
@@ -17996,7 +18011,7 @@ img.away {
   pointer-events: none;
 }
 
-/* line 3256, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3200, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown:after {
   border-color: rgba(255, 255, 255, 0);
   border-bottom-color: #ffffff;
@@ -18005,7 +18020,7 @@ img.away {
   margin-left: -7px;
 }
 
-/* line 3264, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3208, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown:before {
   border-color: rgba(131, 131, 131, 0);
   border-bottom-color: #838383;
@@ -18014,20 +18029,20 @@ img.away {
   margin-left: -8px;
 }
 
-/* line 3272, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3216, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown .btn-group .btn {
   font-weight: bold;
   text-transform: capitalize;
 }
 
 /* better for 3 childs*/
-/* line 3279, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3223, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown .btn-group > :nth-child(2) {
   border-right-width: 0px;
   border-left-width: 0px;
 }
 
-/* line 3284, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3228, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown .btn-group > :last-child {
   border-right-width: 1px !important;
 }
@@ -18044,13 +18059,13 @@ img.away {
 .ajax-dropdown .btn-group >:last-child {
 	border-right-width:1px !important;
 }	*/
-/* line 3301, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3245, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown .btn-group .btn:active {
   top: 0px;
   left: 0px;
 }
 
-/* line 3306, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3250, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-notifications {
   height: 365px;
   display: block;
@@ -18062,7 +18077,7 @@ img.away {
   background: #E9E9E9;
 }
 
-/* line 3317, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3261, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-notifications > .alert.alert-transparent {
   background-color: transparent;
   border-color: transparent;
@@ -18070,13 +18085,13 @@ img.away {
   margin: 13px 10px;
 }
 
-/* line 3324, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3268, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-notifications > .alert > :first-child {
   margin-bottom: 10px;
   font-weight: 400;
 }
 
-/* line 3329, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3273, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown > :last-child {
   font-size: 13px;
   display: block;
@@ -18085,7 +18100,7 @@ img.away {
   font-weight: 400;
 }
 
-/* line 3337, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3281, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .ajax-dropdown .fa-4x.fa-border {
   border-width: 3px;
   border-radius: 50%;
@@ -18102,30 +18117,30 @@ img.away {
 /*
  * LARGE DROPDOWNS
  */
-/* line 3354, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3298, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-large {
   position: static !important;
 }
 
-/* line 3357, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3301, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large {
   margin-left: 16px;
   margin-right: 16px;
   padding: 20px 0px;
 }
 
-/* line 3362, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3306, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large > li > ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 3366, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3310, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large > li > ul > li {
   list-style: none;
 }
 
-/* line 3369, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3313, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large > li > ul > li > a {
   display: block;
   padding: 3px 20px;
@@ -18136,7 +18151,7 @@ img.away {
   white-space: normal;
 }
 
-/* line 3378, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3322, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large > li ul > li > a:hover,
 .dropdown-menu-large > li ul > li > a:focus {
   text-decoration: none;
@@ -18144,14 +18159,14 @@ img.away {
   background-color: #f5f5f5;
 }
 
-/* line 3384, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3328, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large .disabled > a,
 .dropdown-menu-large .disabled > a:hover,
 .dropdown-menu-large .disabled > a:focus {
   color: #999999;
 }
 
-/* line 3389, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3333, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large .disabled > a:hover,
 .dropdown-menu-large .disabled > a:focus {
   text-decoration: none;
@@ -18161,30 +18176,30 @@ img.away {
   cursor: not-allowed;
 }
 
-/* line 3397, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3341, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .dropdown-menu-large .dropdown-header {
   color: #428bca;
   font-size: 18px;
 }
 
 @media (max-width: 768px) {
-  /* line 3402, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+  /* line 3346, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
   .dropdown-menu-large {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 3406, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+  /* line 3350, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
   .dropdown-menu-large > li {
     margin-bottom: 30px;
   }
 
-  /* line 3409, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+  /* line 3353, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
   .dropdown-menu-large > li:last-child {
     margin-bottom: 0;
   }
 
-  /* line 3412, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+  /* line 3356, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
   .dropdown-menu-large .dropdown-header {
     padding: 3px 15px !important;
   }
@@ -18192,7 +18207,7 @@ img.away {
 /*
  * PAGING
  */
-/* line 3423, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3367, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .pagination-xs > li > a, .pagination-xs > li > span {
   padding: 4px 9px;
   font-size: 12px;
@@ -18201,27 +18216,27 @@ img.away {
 /*
  * NOTIFICATIONS : MAIL
  */
-/* line 3432, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3376, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body *, .notification-body:before *, .notification-body:after * {
   box-sizing: border-box !important;
   -webkit-box-sizing: border-box !important;
   -moz-box-sizing: border-box !important;
 }
 
-/* line 3438, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3382, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body {
   padding: 0 0 0 3px;
   margin: 0;
   list-style: none;
 }
 
-/* line 3444, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3388, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li {
   border-bottom: 1px solid #E9E9E9;
   position: relative;
 }
 
-/* line 3450, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3394, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li > span {
   background: #ffffff;
   display: block;
@@ -18231,35 +18246,35 @@ img.away {
   white-space: normal;
 }
 
-/* line 3459, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3403, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li > span:hover {
   background: #F0F4F7;
   color: #667F8F;
 }
 
-/* line 3464, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3408, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li a.msg {
   padding-left: 50px !important;
 }
 
-/* line 3469, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3413, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li a, .notification-body > li a:hover {
   text-decoration: none;
 }
 
-/* line 3473, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3417, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li a, .notification-body > li a span {
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-/* line 3479, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3423, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li a, .notification-body > li a:hover {
   text-decoration: none;
 }
 
-/* line 3483, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3427, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li:hover .progress {
   background: #ffffff;
   box-shadow: 0 1px 0 transparent, 0 0 0 1px #A7A7A7 inset;
@@ -18267,12 +18282,12 @@ img.away {
   -moz-box-shadow: 0 1px 0 transparent, 0 0 0 1px white inset;
 }
 
-/* line 3488, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3432, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body > li:hover .text-muted {
   color: #333333;
 }
 
-/* line 3492, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3436, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body .from {
   font-size: 14px;
   line-height: normal;
@@ -18286,17 +18301,17 @@ img.away {
   overflow: hidden;
 }
 
-/* line 3505, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3449, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body .unread .from {
   font-weight: bold;
 }
 
-/* line 3509, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3453, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body .unread {
   background: #FFFFE0;
 }
 
-/* line 3513, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3457, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body time {
   position: absolute;
   top: 3px;
@@ -18306,7 +18321,7 @@ img.away {
   color: #058dc7;
 }
 
-/* line 3522, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3466, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body .msg-body, .notification-body .subject {
   font-size: 13px;
   color: #A0A0A0;
@@ -18317,7 +18332,7 @@ img.away {
   overflow: hidden;
 }
 
-/* line 3532, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3476, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .notification-body .subject {
   font-size: 13px;
   color: #333333;
@@ -18327,7 +18342,7 @@ img.away {
 /*
  * WIZARDS
  */
-/* line 3543, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3487, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard {
   display: block;
   list-style: none;
@@ -18336,12 +18351,12 @@ img.away {
   width: 100%;
 }
 
-/* line 3550, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3494, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard a:hover, .bootstrapWizard a:active, .bootstrapWizard a:focus {
   text-decoration: none;
 }
 
-/* line 3553, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3497, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li {
   display: block;
   float: left;
@@ -18350,7 +18365,7 @@ img.away {
   padding-left: 0;
 }
 
-/* line 3560, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3504, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li:before {
   border-top: 3px solid #55606E;
   content: "";
@@ -18364,26 +18379,26 @@ img.away {
   z-index: 1;
 }
 
-/* line 3572, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3516, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li:first-child:before {
   left: 50%;
   max-width: 50%;
 }
 
-/* line 3576, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3520, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li:last-child:before {
   max-width: 50%;
   width: 50%;
 }
 
-/* line 3581, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3525, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li.complete .step {
   background: #0aa66e;
   padding: 1px 6px;
   border: 3px solid #55606E;
 }
 
-/* line 3586, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3530, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li .step i {
   font-size: 10px;
   font-weight: normal;
@@ -18391,7 +18406,7 @@ img.away {
   top: -1.5px;
 }
 
-/* line 3592, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3536, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li .step {
   background: #B2B5B9;
   color: #ffffff;
@@ -18409,7 +18424,7 @@ img.away {
   transition: all 0.1s linear 0s;
 }
 
-/* line 3608, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3552, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li.active .step, .bootstrapWizard li.active.complete .step {
   background: #0091d9;
   color: #ffffff;
@@ -18420,12 +18435,12 @@ img.away {
   border: 3px solid #55606E;
 }
 
-/* line 3617, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3561, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li.complete .title, .bootstrapWizard li.active .title {
   color: #2B3D53;
 }
 
-/* line 3620, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3564, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .bootstrapWizard li .title {
   color: #bfbfbf;
   display: block;
@@ -18440,7 +18455,7 @@ img.away {
   z-index: 104;
 }
 
-/* line 3634, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3578, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .wizard-actions {
   display: block;
   list-style: none;
@@ -18449,12 +18464,12 @@ img.away {
   width: 100%;
 }
 
-/* line 3641, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3585, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .wizard-actions li {
   display: inline;
 }
 
-/* line 3645, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3589, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tab-content.transparent {
   background-color: transparent;
 }
@@ -18462,7 +18477,7 @@ img.away {
 /*
  * FUELUX WIZARD
  */
-/* line 3653, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3597, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard {
   position: relative;
   overflow: hidden;
@@ -18477,7 +18492,7 @@ img.away {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
-/* line 3667, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3611, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard:before,
 .fuelux .wizard:after {
   display: table;
@@ -18485,12 +18500,12 @@ img.away {
   content: "";
 }
 
-/* line 3674, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3618, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard:after {
   clear: both;
 }
 
-/* line 3678, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3622, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul {
   width: 4000px;
   padding: 0;
@@ -18498,24 +18513,24 @@ img.away {
   list-style: none outside none;
 }
 
-/* line 3685, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3629, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul.previous-disabled li.complete {
   cursor: default;
 }
 
-/* line 3689, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3633, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul.previous-disabled li.complete:hover {
   color: #356e35;
   cursor: default;
   background: #f3f4f5;
 }
 
-/* line 3695, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3639, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul.previous-disabled li.complete:hover .chevron:before {
   border-left-color: #f3f4f5;
 }
 
-/* line 3699, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3643, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li {
   position: relative;
   float: left;
@@ -18529,7 +18544,7 @@ img.away {
   background: #ededed;
 }
 
-/* line 3712, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3656, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li .chevron {
   position: absolute;
   top: 0;
@@ -18541,7 +18556,7 @@ img.away {
   border-left: 14px solid #d4d4d4;
 }
 
-/* line 3723, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3667, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li .chevron:before {
   position: absolute;
   top: -24px;
@@ -18553,51 +18568,51 @@ img.away {
   content: "";
 }
 
-/* line 3734, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3678, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.complete {
   color: #468847;
   background: #f3f4f5;
 }
 
-/* line 3739, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3683, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.complete:hover {
   cursor: pointer;
   background: #e7eff8;
 }
 
-/* line 3744, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3688, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.complete:hover .chevron:before {
   border-left: 14px solid #e7eff8;
 }
 
-/* line 3748, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3692, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.complete .chevron:before {
   border-left: 14px solid #f3f4f5;
 }
 
-/* line 3752, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3696, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.active {
   color: #3a87ad;
   background: #f1f6fc;
 }
 
-/* line 3757, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3701, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li.active .chevron:before {
   border-left: 14px solid #f1f6fc;
 }
 
-/* line 3761, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3705, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li .badge {
   margin-right: 8px;
 }
 
-/* line 3765, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3709, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard ul li:first-child {
   padding-left: 20px;
   border-radius: 4px 0 0 4px;
 }
 
-/* line 3770, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3714, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard .actions {
   position: absolute;
   right: 0;
@@ -18611,34 +18626,34 @@ img.away {
   border-left: 1px solid #d4d4d4;
 }
 
-/* line 3783, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3727, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard .actions a {
   margin-right: 8px;
   font-size: 12px;
   line-height: 45px;
 }
 
-/* line 3789, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3733, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard .actions .btn-prev i {
   margin-right: 5px;
 }
 
-/* line 3793, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3737, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .wizard .actions .btn-next i {
   margin-left: 5px;
 }
 
-/* line 3797, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3741, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .step-content .step-pane {
   display: none;
 }
 
-/* line 3801, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3745, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .step-content .active {
   display: block;
 }
 
-/* line 3805, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3749, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fuelux .step-content .active .btn-group .active {
   display: inline-block;
 }
@@ -18646,7 +18661,7 @@ img.away {
 /*
  * jarvismetro TILE
  */
-/* line 3814, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3758, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile {
   float: left;
   display: block;
@@ -18666,49 +18681,49 @@ img.away {
   position: relative;
 }
 
-/* line 3833, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3777, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile:hover {
   z-index: 10;
   -webkit-transform: scale(1.07);
   -moz-transform: scale(1.07);
 }
 
-/* line 3839, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3783, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile.big-cubes {
   width: 120px;
   height: 120px;
 }
 
-/* line 3844, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3788, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile.double {
   width: 249px;
 }
 
-/* line 3848, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3792, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile:active {
   top: 1px;
   left: 1px;
 }
 
-/* line 3853, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3797, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile .iconbox {
   text-align: center;
 }
 
-/* line 3857, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3801, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile .iconbox i {
   display: block;
   margin: 15px auto 0;
   height: 75px;
 }
 
-/* line 3862, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3806, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile .iconbox span {
   display: block;
   text-align: left;
 }
 
-/* line 3867, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3811, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jarvismetro-tile .iconbox span > span {
   position: absolute;
   right: -3px;
@@ -18718,17 +18733,17 @@ img.away {
   border: 1px solid #ffffff;
 }
 
-/* line 3876, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3820, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .selected {
   border: 1px solid #0091d9 !important;
 }
 
-/* line 3880, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3824, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .selected {
   position: relative;
 }
 
-/* line 3884, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3828, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .selected:before {
   display: block;
   position: absolute;
@@ -18740,7 +18755,7 @@ img.away {
   z-index: 2;
 }
 
-/* line 3895, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3839, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .selected:after {
   display: block;
   width: 0;
@@ -18758,7 +18773,7 @@ img.away {
 /*
  * SHORT CUT
  */
-/* line 3913, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3857, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut {
   display: block;
   position: absolute;
@@ -18776,7 +18791,7 @@ img.away {
   box-sizing: border-box;
 }
 
-/* line 3930, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3874, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut ul {
   padding: 15px 20px 10px;
   list-style: none;
@@ -18786,13 +18801,13 @@ img.away {
   border-bottom: 1px solid #423F3F;
 }
 
-/* line 3939, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3883, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut ul li {
   display: inline-block;
   width: auto;
 }
 
-/* line 3944, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3888, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut ul li .jarvismetro-tile {
   margin: 0px 3px 3px;
   border: none;
@@ -18801,24 +18816,24 @@ img.away {
   -webkit-border-radius: 0px;
 }
 
-/* line 3952, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3896, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut ul li .jarvismetro-tile:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 3957, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3901, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #shortcut ul li .jarvismetro-tile:active, #shortcut ul li .jarvismetro-tile:focus {
   left: 0;
   top: 0;
 }
 
-/* line 3962, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3906, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .shortcut-on #response-btn {
   display: none !important;
 }
 
-/* line 3967, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3911, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .shortcut-on #main .navbar, .shortcut-on #left-bar .navbar {
   border: none !important;
 }
@@ -18826,7 +18841,7 @@ img.away {
 /*
  * ARROW BOX
  */
-/* line 3976, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3920, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up:after, .arrow-box-up:before {
   bottom: 100%;
   border: solid transparent;
@@ -18837,7 +18852,7 @@ img.away {
   pointer-events: none;
 }
 
-/* line 3986, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3930, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up:after {
   border-color: rgba(255, 255, 255, 0);
   border-bottom-color: #ffffff;
@@ -18846,7 +18861,7 @@ img.away {
   margin-left: -7px;
 }
 
-/* line 3994, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3938, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up:before {
   border-color: rgba(131, 131, 131, 0);
   border-bottom-color: #838383;
@@ -18858,7 +18873,7 @@ img.away {
 /*
  * right
  */
-/* line 4006, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3950, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up-right:after, .arrow-box-up-right:before {
   bottom: 100%;
   border: solid transparent;
@@ -18869,7 +18884,7 @@ img.away {
   pointer-events: none;
 }
 
-/* line 4016, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3960, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up-right:after {
   border-color: rgba(255, 255, 255, 0);
   border-bottom-color: #ffffff;
@@ -18878,7 +18893,7 @@ img.away {
   margin-left: -7px;
 }
 
-/* line 4024, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3968, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .arrow-box-up-right:before {
   border-color: rgba(131, 131, 131, 0);
   border-bottom-color: #838383;
@@ -18890,7 +18905,7 @@ img.away {
 /*
  * BOOTSTRAP TOOLTIP
  */
-/* line 4035, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3979, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tooltip-inner {
   padding: 5px 10px;
   font-size: 11px;
@@ -18902,7 +18917,7 @@ img.away {
 /*
  * SPARKLINE
  */
-/* line 4047, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 3991, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jqstooltip {
   padding: 7px !important;
   border-radius: 3px !important;
@@ -18915,13 +18930,13 @@ img.away {
   -webkit-box-sizing: content-box;
 }
 
-/* line 4060, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4004, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jqstooltip .jqsfield {
   font-family: "Segoe UI","Open Sans",Calibri,Candara,Arial,sans-serif;
   font-size: 11px;
 }
 
-/* line 4065, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4009, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks {
   display: block;
   list-style: none;
@@ -18930,7 +18945,7 @@ img.away {
   text-align: right;
 }
 
-/* line 4073, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4017, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li {
   display: inline-block;
   max-height: 47px;
@@ -18941,7 +18956,7 @@ img.away {
   -webkit-box-sizing: content-box;
 }
 
-/* line 4083, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4027, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li h5 {
   color: #555;
   float: left;
@@ -18953,35 +18968,35 @@ img.away {
   text-transform: uppercase;
 }
 
-/* line 4094, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4038, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li span {
   color: #636363;
   display: block;
 }
 
-/* line 4099, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4043, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li {
   border-left: 1px dotted #c7c7c7;
   padding: 0 10px;
 }
 
-/* line 4104, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4048, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li:last-child {
   padding-right: 0;
 }
 
-/* line 4108, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4052, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #sparks li:first-child {
   border-left: none;
   padding-left: 0;
 }
 
-/* line 4113, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4057, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .sparks-info {
   min-width: 70px;
 }
 
-/* line 4117, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4061, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .sparks-info span {
   font-size: 18px;
   line-height: 20px;
@@ -18989,7 +19004,7 @@ img.away {
   text-transform: none;
 }
 
-/* line 4124, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4068, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .sparks-info .sparkline {
   display: block;
   float: right;
@@ -19001,20 +19016,20 @@ img.away {
  * Reference: http://stackoverflow.com/questions/10592657/scrollbar-stylesheet
  * GitHub Source: https://gist.github.com/jambu/2004633
  */
-/* line 4135, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4079, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar {
   -webkit-overflow-scrolling: touch;
   height: 10px;
   width: 10px;
 }
 
-/* line 4141, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4085, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar:hover {
   background-color: #E9E9E9;
   border: 1px solid #dbdbdb;
 }
 
-/* line 4146, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4090, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-button:start:decrement,
 .custom-scroll::-webkit-scrollbar-button:end:increment {
   background: transparent;
@@ -19022,14 +19037,14 @@ img.away {
   height: 0;
 }
 
-/* line 4153, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4097, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-track {
   background-clip: padding-box;
   border-width: 0 0 0 4px;
   border: solid transparent;
 }
 
-/* line 4159, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4103, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-track-piece {
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -19039,7 +19054,7 @@ img.away {
   border-radius: 0;
 }
 
-/* line 4168, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4112, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-thumb {
   -moz-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
   -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
@@ -19050,7 +19065,7 @@ img.away {
   box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
 }
 
-/* line 4178, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4122, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-thumb:vertical,
 .custom-scroll::-webkit-scrollbar-thumb:horizontal {
   -moz-border-radius: 0;
@@ -19061,7 +19076,7 @@ img.away {
   border-radius: 0;
 }
 
-/* line 4188, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4132, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-thumb:active {
   -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.33);
   -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.33);
@@ -19069,7 +19084,7 @@ img.away {
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.33);
 }
 
-/* line 4195, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4139, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #959595;
 }
@@ -19077,13 +19092,13 @@ img.away {
 /*
  * Typehead
  */
-/* line 4204, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4148, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .twitter-typeahead .tt-query,
 .twitter-typeahead .tt-hint {
   margin-bottom: 0;
 }
 
-/* line 4209, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4153, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tt-dropdown-menu {
   min-width: 160px;
   margin-top: 2px;
@@ -19101,24 +19116,24 @@ img.away {
   background-clip: padding-box;
 }
 
-/* line 4226, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4170, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tt-suggestion {
   display: block;
   padding: 3px 20px;
 }
 
-/* line 4231, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4175, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tt-suggestion.tt-is-under-cursor {
   color: #ffffff;
   background-color: #0081c2;
 }
 
-/* line 4236, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4180, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tt-suggestion.tt-is-under-cursor a {
   color: #ffffff;
 }
 
-/* line 4240, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4184, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tt-suggestion p {
   margin: 0;
 }
@@ -19126,21 +19141,21 @@ img.away {
 /*
  * Google Maps
  */
-/* line 4249, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4193, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .google_maps {
   width: 100%;
   height: 350px;
   position: relative;
 }
 
-/* line 4255, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4199, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .google_maps * {
   box-sizing: content-box;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
 }
 
-/* line 4261, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4205, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .google_maps img {
   max-width: none;
   /* needed for google map popup*/
@@ -19149,7 +19164,7 @@ img.away {
 /*
  * Header btn
  */
-/* line 4269, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4213, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .header-btn {
   margin-top: 5px;
 }
@@ -19157,7 +19172,7 @@ img.away {
 /*
  * TREE
  */
-/* line 4278, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4222, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree {
   min-height: 20px;
   -webkit-border-radius: 4px;
@@ -19165,7 +19180,7 @@ img.away {
   border-radius: 4px;
 }
 
-/* line 4284, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4228, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li {
   list-style-type: none;
   margin: 0;
@@ -19173,12 +19188,12 @@ img.away {
   position: relative;
 }
 
-/* line 4291, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4235, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree ul ul li:hover {
   background: rgba(0, 0, 0, 0.015);
 }
 
-/* line 4295, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4239, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li:before, .tree li:after {
   content: '';
   left: -20px;
@@ -19186,7 +19201,7 @@ img.away {
   right: auto;
 }
 
-/* line 4301, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4245, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li:before {
   border-left: 1px solid #999999;
   bottom: 50px;
@@ -19199,7 +19214,7 @@ img.away {
   transition: "border-color 0.1s ease 0.1s";
 }
 
-/* line 4312, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4256, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li:after {
   border-top: 1px solid #999999;
   height: 20px;
@@ -19207,7 +19222,7 @@ img.away {
   width: 25px;
 }
 
-/* line 4318, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4262, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li span {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -19222,58 +19237,58 @@ img.away {
   transition: color .2s ease .1s,background-color .2s ease .1s,border-color .3s ease .2s;
 }
 
-/* line 4331, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4275, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span {
   cursor: pointer;
   padding: 7px;
 }
 
-/* line 4335, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4279, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree > ul > li:before, .tree > ul > li::after {
   border: 0;
 }
 
-/* line 4338, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4282, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li:last-child::before {
   height: 30px;
 }
 
-/* line 4341, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4285, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span:hover, .tree li.parent_li > span:hover + ul li span {
   background: #eee;
   border: 1px solid #94a0b4;
   color: #000;
 }
 
-/* line 4347, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4291, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree > ul {
   padding-left: 0px;
 }
 
-/* line 4351, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4295, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree ul ul {
   padding-left: 34px;
   padding-top: 10px;
 }
 
-/* line 4356, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4300, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span:hover {
   background-color: #DF8505;
   border: 1px solid #C67605;
   color: #ffffff;
 }
 
-/* line 4363, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4307, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span:hover + ul li::before {
   border-left-color: #F89406;
 }
 
-/* line 4367, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4311, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span:hover + ul li::after {
   border-top-color: #F89406;
 }
 
-/* line 4371, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4315, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .tree li.parent_li > span:hover + ul li span {
   background: #FDDFB3 !important;
   border: 1px solid #FAA937;
@@ -19283,7 +19298,7 @@ img.away {
 /*
  * VECTOR MAP
  */
-/* line 4383, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4327, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jvectormap-label {
   position: absolute;
   display: none;
@@ -19298,7 +19313,7 @@ img.away {
   padding: 3px;
 }
 
-/* line 4397, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4341, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jvectormap-zoomin, .jvectormap-zoomout {
   position: absolute;
   background: #292929;
@@ -19319,30 +19334,30 @@ img.away {
   border: 1px solid #bfbfbf;
 }
 
-/* line 4417, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4361, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jvectormap-zoomin:hover, .jvectormap-zoomout:hover {
   background: #eeeeee;
   border-color: #d9d9d9;
 }
 
-/* line 4423, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4367, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jvectormap-zoomin {
   top: 0px;
 }
 
-/* line 4427, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4371, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .jvectormap-zoomout {
   top: 24px;
 }
 
-/* line 4432, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4376, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .vector-map {
   height: 300px;
   width: 100%;
   padding: 10px;
 }
 
-/* line 4438, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4382, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 #heat-fill {
   display: block;
   position: relative;
@@ -19353,7 +19368,7 @@ img.away {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAABCAIAAAAU3Xa1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMDE4MkZGMzMzOTgxMUUzODZBQUNFQUNFOTk0NEUxRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMDE4MkZGNDMzOTgxMUUzODZBQUNFQUNFOTk0NEUxRiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwMTgyRkYxMzM5ODExRTM4NkFBQ0VBQ0U5OTQ0RTFGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAwMTgyRkYyMzM5ODExRTM4NkFBQ0VBQ0U5OTQ0RTFGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rG8MDAAAAM5JREFUeNpUUtESwyAIg8ft9v8/W4ElBPWKV1AIiKEeEWVuVlWjINSVONBnirQDxukNgcuyTQsBzLHMDsLIQQw+nIL71JqNJ5GZJXApFNpmtlagQjfS2xGbkFA4Iwu+hu0sK3Wl3nOwNv7TvPrWk3X0eW9dK1pU9hK2eTuWb2ySJmlziutA3iBxmblPNvA5PNsuUpoDY80+Z0SW1IRpDEqwC58C14tsr1f8le8si0aojdADr/1UjaclsFashX8GGkL9wDxtRsV6ft/PX4ABADRzhOVIOJaAAAAAAElFTkSuQmCC);
 }
 
-/* line 4448, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4392, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fill-a, .fill-b {
   width: 20px;
   text-align: right;
@@ -19368,7 +19383,7 @@ img.away {
   font-weight: bold;
 }
 
-/* line 4461, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4405, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .fill-b {
   text-align: left;
   position: absolute;
@@ -19383,7 +19398,7 @@ img.away {
 /*
  * CKEDITOR
  */
-/* line 4478, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4422, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .cke_top {
   background: rgba(248, 248, 248, 0.9) !important;
   background-image: none !important;
@@ -19393,7 +19408,7 @@ img.away {
  * BS Multiselect
  * TODO:
  */
-/* line 4488, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4432, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container {
   position: absolute;
   list-style-type: none;
@@ -19401,22 +19416,22 @@ img.away {
   padding: 0;
 }
 
-/* line 4494, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4438, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container .input-group {
   margin: 5px;
 }
 
-/* line 4497, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4441, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li {
   padding: 0;
 }
 
-/* line 4500, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4444, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li > a.multiselect-all label {
   font-weight: bold;
 }
 
-/* line 4503, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4447, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li > label.multiselect-group {
   margin: 0;
   padding: 3px 20px 3px 20px;
@@ -19424,7 +19439,7 @@ img.away {
   font-weight: bold;
 }
 
-/* line 4509, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4453, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li > a > label {
   margin: 0;
   height: 100%;
@@ -19432,17 +19447,17 @@ img.away {
   font-weight: normal;
 }
 
-/* line 4515, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4459, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li > a > label.radio, .multiselect-container > li > a > label.checkbox {
   margin: 0;
 }
 
-/* line 4518, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4462, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .multiselect-container > li > a > label > input[type="checkbox"] {
   margin-bottom: 5px;
 }
 
-/* line 4521, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4465, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .btn-group > .btn-group:nth-child(2) > .multiselect.btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -19451,31 +19466,31 @@ img.away {
 /*
  * FORMS: INPUT WITH ICONS
  */
-/* line 4531, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4475, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .input-group .icon-addon .form-control {
   border-radius: 0;
 }
 
-/* line 4535, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4479, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon {
   position: relative;
   color: #555;
   display: block;
 }
 
-/* line 4541, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4485, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon:after,
 .icon-addon:before {
   display: table;
   content: " ";
 }
 
-/* line 4547, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4491, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon:after {
   clear: both;
 }
 
-/* line 4551, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4495, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-md .glyphicon,
 .icon-addon .glyphicon,
 .icon-addon.addon-md .fa,
@@ -19490,7 +19505,7 @@ img.away {
   top: 1px;
 }
 
-/* line 4565, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4509, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-lg .form-control {
   line-height: 1.33;
   height: 46px;
@@ -19498,12 +19513,12 @@ img.away {
   padding: 10px 16px 10px 40px;
 }
 
-/* line 4572, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4516, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .input-group-lg .icon-addon.addon-lg + .input-group-btn > .btn {
   height: 46px;
 }
 
-/* line 4576, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4520, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-sm .form-control {
   height: 30px;
   padding: 5px 10px 5px 28px;
@@ -19511,7 +19526,7 @@ img.away {
   line-height: 1.5;
 }
 
-/* line 4583, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4527, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-lg .fa,
 .icon-addon.addon-lg .glyphicon {
   font-size: 18px;
@@ -19520,7 +19535,7 @@ img.away {
   top: 4px;
 }
 
-/* line 4591, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4535, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-md .form-control,
 .icon-addon .form-control {
   padding-left: 30px;
@@ -19528,7 +19543,7 @@ img.away {
   font-weight: normal;
 }
 
-/* line 4598, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4542, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon.addon-sm .fa,
 .icon-addon.addon-sm .glyphicon {
   margin-left: 0;
@@ -19537,7 +19552,7 @@ img.away {
   top: -1px;
 }
 
-/* line 4606, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4550, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon .form-control:focus + .glyphicon,
 .icon-addon:hover .glyphicon,
 .icon-addon .form-control:focus + .fa,
@@ -19545,12 +19560,17 @@ img.away {
   color: #2580db;
 }
 
-/* line 4613, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+/* line 4557, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .icon-addon input:disabled + .glyphicon,
 .icon-addon select:disabled + .glyphicon,
 .icon-addon input:disabled + .fa,
 .icon-addon select:disabled + .fa {
   color: #ccc;
+}
+
+/* line 4564, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.mgt-4 {
+  margin-top: 4px;
 }
 
 /* This issue relates to container + toggle menu with a result of overflow. */
