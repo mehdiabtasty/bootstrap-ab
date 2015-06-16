@@ -14327,7 +14327,7 @@ html {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: url("../img/mybg.png") #ffffff;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -14336,7 +14336,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: url("../img/mybg.png") #ffffff;
+  background-color: #ffffff;
   direction: ltr;
 }
 
