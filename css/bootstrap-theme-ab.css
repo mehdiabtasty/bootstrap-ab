@@ -1759,6 +1759,131 @@ body.nooverflow {
   top: 3px !important;
 }
 
+/* ANGLUAR TOGGLE SWITCH*/
+/* line 2, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch {
+  border: 1px solid;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  line-height: 8px;
+  min-width: 100px;
+}
+
+/* line 12, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch.disabled > div > span.knob {
+  background: #AAA;
+}
+
+/* line 16, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch span {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  line-height: 20px;
+  padding: 4px;
+  text-align: center;
+  width: 33%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 33, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch > div {
+  position: relative;
+  width: 150%;
+}
+
+/* line 38, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .knob {
+  background: red;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #f5f5f5;
+  width: 34%;
+  z-index: 100;
+}
+
+/* line 47, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-on {
+  left: 0%;
+}
+
+/* line 51, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-off {
+  left: -50%;
+}
+
+/* line 55, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-left, .toggle-switch .switch-right {
+  z-index: 1;
+}
+
+/* line 59, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-left {
+  color: #fff;
+  background: #005fcc;
+}
+
+/* line 64, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-right {
+  color: #333;
+  background: #f0f0f0;
+}
+
+/* line 69, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch-animate {
+  transition: left 0.5s;
+  -o-transition: left 0.5s;
+  -moz-transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+}
+
+/* line 76, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #cccccc;
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  line-height: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  min-width: 100px;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* line 96, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .knob {
+  color: #333333;
+  background: #ffffff;
+  border: 3px;
+}
+
+/* line 102, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-left {
+  color: #fff;
+  background: #428bca;
+}
+
+/* line 107, ../sass/sass-files/bootstrap-theme-ab/_plugin-angular-toggle-switch.scss */
+.toggle-switch .switch-right {
+  color: #000;
+  background: #eeeeee;
+}
+
 /*@import "library/animation/animation-engine";
 @import "library/jqueryui/jquery-ui-1.10.3.custom";*/
 /* line 1, ../sass/sass-files/library/flags/_flags.scss */
@@ -11362,6 +11487,38 @@ img.away {
 }
 
 /* line 4567, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.mgt-6 {
+  margin-top: 6px;
+}
+
+/* line 4570, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.pdr-0 {
+  padding-right: 0;
+}
+
+/* line 4573, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.pdb-6 {
+  padding-bottom: 6px;
+}
+
+/* line 4576, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.pdt-45 {
+  padding-top: 45px;
+}
+
+/* line 4579, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.pdt-13 {
+  padding-top: 13px;
+}
+
+/*HEADER*/
+/* line 4583, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.news-dropdown {
+  margin-top: -15px;
+  margin-left: -112px;
+}
+
+/* line 4587, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
 .label-head-table {
   margin-top: 8px;
   margin-right: 4px;
@@ -11369,11 +11526,19 @@ img.away {
   cursor: pointer;
 }
 
-/* line 4573, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
-.mgt-6 {
-  margin-top: 6px;
+/* line 4594, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+.well-code {
+  max-height: 409px;
+  overflow: scroll;
 }
 
+/* Patch Firefox dataTables bug*/
+@-moz-document url-prefix() {
+  /* line 4600, ../sass/sass-files/bootstrap-theme-ab/_main.scss */
+  table {
+    clear: both;
+  }
+}
 /* This issue relates to container + toggle menu with a result of overflow. */
 /* line 2, ../sass/sass-files/bootstrap-theme-ab/_main-container-fix.scss */
 html.hidden-menu-mobile-lock {

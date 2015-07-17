@@ -4564,12 +4564,40 @@ border-top-color: #F89406;
 .mgt-4{
 	margin-top: 4px;
 }
+.mgt-6{
+  margin-top: 6px;
+}
+.pdr-0{
+  padding-right: 0; 
+}
+.pdb-6{
+  padding-bottom: 6px;
+}
+.pdt-45{
+  padding-top: 45px;
+}
+.pdt-13{
+  padding-top: 13px;
+}
+/*HEADER*/
+.news-dropdown{
+    margin-top: -15px;
+    margin-left: -112px;
+}
 .label-head-table{
   margin-top: 8px;
   margin-right: 4px;
   margin-left: 4px;
   cursor: pointer;
 }
-.mgt-6{
-  margin-top: 6px;
+//WELL CUSTOM FOR CODE
+.well-code{
+  max-height: 409px;
+  overflow: scroll;
+}
+/* Patch Firefox dataTables bug*/
+@-moz-document url-prefix() {
+    table {
+        clear: both;
+    }
 }
